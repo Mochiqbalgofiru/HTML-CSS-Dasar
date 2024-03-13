@@ -1,0 +1,75 @@
+ul {
+    list-style: none;
+    text-align: right;
+    padding: 0%;
+}
+
+.icon {
+    float: left;
+    font-family: 'Lucida Sans';
+    background-color: black;
+    color: white;
+}
+
+.icon > h2 {
+    margin: 0;
+}
+
+li{
+    font-size: 15px;
+    padding: 12px 20px;
+    display: inline-block;
+}
+
+.dekstop.icon {
+    position: fixed;
+}
+
+
+li:hover {
+    background: black;
+    color: white;
+}
+
+input {
+    color:rgb(129, 71, 9);
+}
+
+.icon.dekstop {
+    background-color: black;
+    color: white;
+}
+
+.div1 {
+    background-image: 
+    url('perum.jpg');
+    background-size:cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    text-shadow: 10px 10px 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 7px;
+    position: relative;
+}
+
+.box {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    left: 10px;
+    top: 5px;
+    background-color: white;
+    background-image: url(perum\ all\ star\(crop\).jpg);
+}
+
+.position {
+    background: rgb(238, 237, 240);
+    padding: 7px;
+    position: relative;
+    text-align: center;
+}

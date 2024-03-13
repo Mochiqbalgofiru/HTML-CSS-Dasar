@@ -1,0 +1,33 @@
+.decoration {
+    text-decoration: overline underline;
+    color: rgb(4, 59, 41);
+    text-align: center;
+}
+
+.bayangan {
+    text-shadow: 10px 10px 5px rgb(129, 212, 247);
+    color: rgb(73, 183, 146);
+    text-align: center;
+}
+
+.spacing {
+    text-indent: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.styling {
+    text-align: center;
+    font-style:inherit;
+}
+
+.transformasi {
+    text-align: center;
+    text-decoration: line-through;
+    color: rgb(178, 51, 51);
+}
+
+.alignment {
+    text-align: center;
+    font-style: inherit;
+}

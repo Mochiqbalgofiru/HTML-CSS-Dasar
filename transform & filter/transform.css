@@ -1,0 +1,61 @@
+.gambar {
+    transform: translatex(100px) translatey(50px); 
+    
+}
+
+ /*nilai x untuk mengatur posisi ke kiri dan kanan*/
+ /*nilai y untuk mengatur posisi ke atas dan bawah*/
+ /*untuk menghitung nilai sumbu "z" menggunakan translate3d(x)(y)(z)*/
+
+.gambar {
+    transform: skewx(20deg);
+}
+
+/*skew untuk membuat gambar terlihat nyerong*/
+/*satuan nilai dari skew itu "deg"*/
+
+.gambar {
+    transform: rotate3d(30deg);
+}
+
+/* rotate ini untuk membuat gambar terlihat memutar seperti jarum jam*/
+/*satuan nilai rotate itu "deg"*/
+/* jika di tambahkan sumbu x di elemen nya misal "rotatex()". 
+ini akan membuat gambar terlihat gambar menipis jika nilainya semakin gede, dan jika 
+"rotatey()" ini akan membuat gambar terlihat menipis ke aras atas dan terlihat panjang ke bawah jika nilainya
+sumbu y nya semakin gede. dan jika 
+"rotatez()" ini akan membuat gambar nyerong dan menipis jika nilai sumbu z nya semakin gede*/
+/*rotate3d() ini tidak membuat gambar berubah*/
+
+.gambar {
+    transform: scale(5);
+}
+
+/*scale ini untuk merubah ukuran gambar*/
+/*sumbu x untuk membuat terlihat melebar ke kiri dan kanan*/
+/*sumbu y untuk membuat terlihat memanjang ke atas dan bawah*/
+
+.gambar {
+    filter: grayscale(100%);
+}
+
+/*filter ini untuk membuat perubahan di dalam gambar*/
+/*grayscale ini untuk membuat gambar terlihat hitam putih jika nilai nya semakin gede*/
+/*nilai satuan nya % */
+
+.gambar {
+    filter: blur(3px);
+}
+/*nilai satuan blur "px" */
+
+.gambar:hover {
+    filter: blur(3px);
+}
+
+/*ini untuk membuat blur jika cusor di arahkan ke gambar, maka gambar nya akan terlihat blur*/
+
+.gambar {
+    filter: brightness(20%);
+}
+
+/*nilai satuan dari brightness itu "%" */

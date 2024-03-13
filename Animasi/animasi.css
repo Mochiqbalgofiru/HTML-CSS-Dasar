@@ -1,0 +1,64 @@
+/* TRANSISI*/
+
+/*.babi {
+    transition-duration: 1s;
+}
+
+.babi:hover {
+    filter: blur(2px);
+}*/
+
+/*.babi {
+    transition-delay: 1s;
+}
+
+.babi:hover {
+    filter: blur(2px);
+}*/
+
+/*.babi {
+    transition-property: transform filter;
+}
+
+.babi:hover {
+    filter: blur(2px);
+}*/
+
+/*.babi {
+    transition-timing-function: ease-in-out;
+}
+
+.babi:hover {
+    filter: blur(2px);
+}*/
+
+/* ANIMASI*/
+
+@keyframes bujanginam {
+    0% {
+        transform: translate(10px,0);
+    }
+    50% {
+        transform: translate(100px,50px);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+}
+
+.babi:hover {
+    animation: bujanginam 2s infinite;
+}
+
+/*@keyframes bujanginam {
+    form {
+        transform: scale(2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.babi {
+    animation: bujanginam 2s infinite;
+}*/

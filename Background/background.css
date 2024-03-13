@@ -1,0 +1,26 @@
+.div1 {
+    background-image: 
+    url('https://media.licdn.com/dms/image/D4D16AQE3dHGAiS_SjA/profile-displaybackgroundimage-shrink_200_800/0/1692952862750?e=2147483647&v=beta&t=R1H1t7MkAqV7sa8UsyRbsFxrYaDmxYvJeILfi3CzgCg');
+    background-size:cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    text-shadow: 10px 10px 5px;
+    text-align: center;
+    color: rgb(83, 235, 184);
+    text-transform: uppercase;
+}
+
+.div2 {
+    background-image: url('./WhatsApp\ Image\ 2024-03-03\ at\ 14.39.21_731c2edb.jpg');
+    background-size:cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    text-align: center;
+    text-shadow: 10px 10px 5px;
+    color: rgb(83, 235, 184);
+    text-transform: uppercase;
+}

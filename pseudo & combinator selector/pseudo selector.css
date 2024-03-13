@@ -1,0 +1,24 @@
+h1,h2 {
+    background-color: bisque;
+    text-align: center;
+}
+
+a:visited {
+    color: red;
+}
+
+h1:hover {
+    color: rebeccapurple;
+}
+
+h2:hover {
+    color: rebeccapurple;
+}
+
+p {
+    text-indent: 10px;
+}
+
+input:focus {
+    background: red;
+}

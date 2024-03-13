@@ -1,0 +1,46 @@
+div {
+    margin: 100px 200px;
+}
+
+/*div ini untuk membuat posisi button tidak terlalu di pinggir*/
+
+button {
+    background-color: #008c95;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition-duration: 1s;
+}
+
+/*button ini untuk membuat bentuk button*/
+/*border itu untuk membuat garis luar terlihat atau tidaknya*/
+/*padding itu untuk membuat ukuran button besar atau kecil*/
+/*border-radius itu untuk membuat ujung button tumpul atau lancip*/
+/*box-shadow itu untuk membuat ada bayangan di belakang button*/
+/*transition-duration itu untuk membuat animasi ketika kusor diarahkan ke button dengan waktu yg ingin di tentukan*/
+
+button:hover {
+    background-color: rgb(17, 136, 187);
+    box-shadow: 0px 9px 1px black;
+    transform: translateY(-10px);
+}
+
+/*button:hover ini untuk membuat latar ketika kusor di arahkan ke button saja*/
+/*transform: translateY(-10)untuk membuat animasi ketika kusor ke arah button naik.jika nilai satuan nya tidak minus, animasi turun ke bawah*/
+
+button:active {
+    outline: none;
+    background-color: bisque;
+    box-shadow: 0px 3px 1px black;
+}
+
+/*button:active = untuk membuat tampilan ketika di klik berubah segi tampilan dan warna*/
+/*outline = garis yang diluar ketika di klik akan hilang jika masukan nilai "none;" */
+
+button:focus {
+    outline: none;
+}
+/*button:active = untuk membuat tampilan button ketika di klik balik kesemula. atau bisa dikatakan mengunci*/

@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.h-700 {
+    height: 700px;
+}
+
+.bg-salmon {
+    background-color: salmon;
+}
+
+.bg-green {
+    background-color: green;
+}
+.position {
+    background: blanchedalmond;
+    padding: 10px;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+}
